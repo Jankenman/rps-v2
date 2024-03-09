@@ -1,0 +1,30 @@
+.header {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  height: 5rem;
+  justify-content: space-between;
+  line-height: 1;
+  padding: 12px 0;
+}
+
+.header h1 {
+  font-size: 1.25rem;
+  line-height: 52px;
+}
+
+.header a {
+  color: inherit;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.header nav ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.header nav a {
+  font-size: 0.875rem;
+  padding: 0.5rem 1rem;
+}
