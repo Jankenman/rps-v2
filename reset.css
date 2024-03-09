@@ -139,3 +139,77 @@ table {
   border-radius: 2px;
   outline: 2px solid darkorange;
 }
+
+:root {
+  --text-xxl-size: 3.5625rem;
+  --text-xl-size: 2.8125rem;
+  --text-l-size: 2.25rem;
+  --text-m-size: 2rem;
+  --text-s-size: 1.75rem;
+  --text-xs-size: 1.5rem;
+  --text-xxs-size: 1.25rem;
+
+  --text-xxl-font-weight: normal;
+  --text-xl-font-weight: normal;
+  --text-l-font-weight: normal;
+  --text-m-font-weight: normal;
+  --text-s-font-weight: normal;
+  --text-xs-font-weight: normal;
+  --text-xxs-font-weight: normal;
+  --text-h6-font-weight: normal;
+
+  --text-xxl-line-height: 1.4;
+  --text-xl-line-height: 1.4;
+  --text-l-line-height: 1.4;
+  --text-m-line-height: 1.5;
+  --text-s-line-height: 1.5;
+  --text-xs-line-height: 1.5;
+  --text-xxs-line-height: 1.5;
+
+  --text-xxl-margin-top: 4rem;
+  --text-xl-margin-top: 4rem;
+  --text-l-margin-top: 4rem;
+  --text-m-margin-top: 4rem;
+  --text-s-margin-top: 2.5rem;
+  --text-xs-margin-top: 2.5rem;
+  --text-xxs-margin-top: 2.5rem;
+  --text-h6-margin-top: 1.5rem;
+
+  --text-xxl-margin-bottom: 1.5rem;
+  --text-xl-margin-bottom: 1.5rem;
+  --text-l-margin-bottom: 1.5rem;
+  --text-m-margin-bottom: 1.5rem;
+  --text-s-margin-bottom: 1.5rem;
+  --text-xs-margin-bottom: 1rem;
+  --text-xxs-margin-bottom: 1rem;
+  --text-h6-margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 520px) {
+  :root {
+    --text-xxl-size: 3.5625rem;
+    --text-xl-size: 2.8125rem;
+    --text-l-size: 2rem;
+    --text-m-size: 1.75rem;
+    --text-s-size: 1.5rem;
+    --text-xs-size: 1.25rem;
+    --text-xxs-size: 1rem;
+
+    --text-xxl-font-weight: normal;
+    --text-xl-font-weight: normal;
+    --text-l-font-weight: bolder;
+    --text-m-font-weight: bolder;
+    --text-s-font-weight: bolder;
+    --text-xs-font-weight: bolder;
+    --text-xxs-font-weight: bolder;
+    --text-h6-font-weight: bolder;
+
+    --text-xxl-line-height: 1.4;
+    --text-xl-line-height: 1.4;
+    --text-l-line-height: 1.5;
+    --text-m-line-height: 1.5;
+    --text-s-line-height: 1.5;
+    --text-xs-line-height: 1.5;
+    --text-xxs-line-height: 1.7;
+  }
+}
