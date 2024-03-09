@@ -6,7 +6,9 @@ import * as styles from "./Header.module.css";
 const Header = () => {
   return (
     <header>
-      <a href="#mainContentsGuide" className={styles.mainContentsGuide}>メインコンテンツへ</a>
+      <a href="#mainContentsGuide" className={styles.mainContentsGuide}>
+        メインコンテンツへ
+      </a>
       <div className={`${styles.header} ${styleUtils.wrapper}`}>
         <h1>
           <Link to="/">RPS Apps</Link>
@@ -29,4 +31,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export { Header };
