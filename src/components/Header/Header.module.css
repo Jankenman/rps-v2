@@ -1,3 +1,19 @@
+.mainContentsGuide {
+  display: block;
+  position: absolute;
+  top: -100px;
+  width: 100vw;
+}
+
+.mainContentsGuide:focus-visible {
+  background: #fff;
+  outline-offset: -5px;
+  top: 0;
+  text-align: center;
+  line-height: 5rem;
+  z-index: 9999999;
+} 
+
 .header {
   align-items: center;
   display: flex;
