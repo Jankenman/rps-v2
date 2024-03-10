@@ -1,0 +1,28 @@
+.mainContainer {
+  margin: 5rem auto 9rem;
+}
+
+.appGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.appGrid > * {
+  width: calc(50% - 1rem);
+}
+
+.appLink {
+  border-radius: 4px;
+  border: solid 1px #616161;
+  color: inherit;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.appname {
+  display: block;
+  font-weight: bolder;
+}
