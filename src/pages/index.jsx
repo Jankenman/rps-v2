@@ -1,10 +1,8 @@
 import React from "react";
-import { Link } from "gatsby";
-import { Layout } from "../components/Layout";
-import { Heading } from "../components/Heading";
-import * as utilStyles from "../components/util.module.css";
+import { Layout } from "components/Layout";
+import { Heading } from "components/Heading";
+import * as utilStyles from "components/util.module.css";
 import * as styles from "./index.module.css";
-import { Footer } from "../components/Footer";
 
 // const apps = [
 //   {
